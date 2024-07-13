@@ -1,21 +1,21 @@
 import ChooseBanner from "../../../assets/Images/tutorfinal.avif";
-
+import 'animate.css';
 const WhyChoose = () => {
   return (
-    <div className=" mx-auto mt-6">
-      <div className="md:flex  items-center">
+    <div className=" mx-auto mt-6 ">
+      <div className="flex lg:flex-row flex-col  items-center">
         <div className="flex-1">
           <img
-            className="h-[500px] w-[500px] border-y-4 rounded-xl border-[#3b478f]"
+            className="h-[500px] w-auto border-y-4 rounded-xl border-[#3b478f]"
             src={ChooseBanner}
             alt=""
           />
         </div>
-        <div className="flex-1 space-y-5 md:space-y-10">
-          <h1 className="text-5xl mt-6 md:mt-0 text-center font-bold text-[#3b478f]">
+        <div className="flex-1 space-y-5 md:space-y-10 lg:px-5 px-1">
+          <h1 className="lg:text-5xl md:text-4xl text-3xl mt-6 md:mt-0 text-center font-bold text-[#3b478f]">
             Why Choose Us!
           </h1>
-          <p className="text-left text-[#3b478f]">
+          <p className=" text-[#3b478f] text-justify">
             At <span className="font-bold">Mentor Hive</span>, we are dedicated
             to transforming education through seamless and user-friendly
             technology. Our platform connects students with top-tier educators,
@@ -27,20 +27,20 @@ const WhyChoose = () => {
             enjoyable. Choose us for a reliable, innovative, and comprehensive
             approach to education.
           </p>
-          <div className="flex justify-evenly items-center">
-            <h1>
+          <div className="flex md:flex-row flex-col justify-evenly items-center gap-2 ">
+            <h1  className="border-2 p-2 border-blue-600 rounded-2xl animate__animated animate__tada">
               <span className="font-bold md:text-5xl text-3xl text-[#3b478f]">
                 3000+
               </span>{" "}
               <br /> <span className="font-bold">Authentic Tuitions</span>{" "}
             </h1>
-            <h1>
+            <h1 className="border-2 px-6 py-2 border-blue-600 rounded-2xl animate__animated animate__tada">
               <span className="font-bold  md:text-5xl text-3xl text-[#3b478f]">
                 130+
               </span>{" "}
               <br /> <span className="font-bold">Verified Tutor</span>{" "}
             </h1>
-            <h1>
+            <h1 className="border-2 px-6 py-2 border-blue-600 rounded-2xl animate__animated animate__tada">
               <span className="font-bold  md:text-5xl text-3xl text-[#3b478f]">
                 10000+
               </span>{" "}
