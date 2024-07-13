@@ -3,7 +3,7 @@ import WhyChoose from './WhyChooseUs/WhyChoose';
 
 const Home = () => {
     return (
-        <div>
+        <div className='overflow-x-hidden' >
           <Hero/>
           <WhyChoose/>
         </div>
