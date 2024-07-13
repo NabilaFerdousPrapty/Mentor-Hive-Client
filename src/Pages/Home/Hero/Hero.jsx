@@ -1,4 +1,3 @@
-import React from "react";
 import curvy from "../../../assets/Images/curvy.svg";
 import Slider from "./Slider/Slider";
 
